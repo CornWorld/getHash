@@ -4,5 +4,28 @@
     "crypto": "^1.0.1",
     "fs": "^0.0.1-security"
   },
-  "type": "module"
+  "type": "module",
+  "name": "gethash",
+  "version": "1.0.0",
+  "description": "Get hash from files or all the files in dirs",
+  "main": "getHash.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CornWorld/getHash.git"
+  },
+  "keywords": [
+    "hash",
+    "cli",
+    "json"
+  ],
+  "author": "CornWorld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CornWorld/getHash/issues"
+  },
+  "homepage": "https://github.com/CornWorld/getHash#readme"
 }
