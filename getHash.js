@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import {createHash} from "crypto";
 import fs from "fs";
 import * as commander from "commander";
@@ -43,8 +45,9 @@ function getFilesHashFromFileList(fileList, processingCallback = (filename) => {
 program
     .name("getHash")
     .description("Get hash from files or all the files in dirs.")
-    .version("0.1")
+    .version("1.0.1")
 ;
+
 program
     .command("gen")
     .description("Path of files or dirs")
