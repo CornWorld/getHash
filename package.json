@@ -5,7 +5,7 @@
     "fs": "^0.0.1-security"
   },
   "type": "module",
-  "name": "gethash",
+  "name": "getfilehash",
   "version": "1.0.0",
   "description": "Get hash from files or all the files in dirs",
   "main": "getHash.js",
